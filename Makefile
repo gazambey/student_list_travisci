@@ -1,4 +1,4 @@
-IMAGE = dirane/student-list-api:travis-ci
+IMAGE = gazambey/student-list-api:travis-ci
 
 image:
 	docker build -t $(IMAGE) ./simple_api
